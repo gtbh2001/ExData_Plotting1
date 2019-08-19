@@ -65,7 +65,7 @@ with(HouseHoldPowerConsumption,
         
 # copy chart to a pgn file with size of 480x480 ( default size for png device) 
         
-        dev.copy(png, filename="./figure/plot1.png")
+        dev.copy(png, filename="plot1.png")
         dev.off()
         
        }

@@ -58,7 +58,7 @@ with(HouseHoldPowerConsumption,
        
        legend("topright", col=c("red", "green"), legend = c("Mean","Median") , pch = c("-","-"),lwd = 4)
        
-       dev.copy(png, filename="./figure/plot2.png")
+       dev.copy(png, filename="plot2.png")
        dev.off()
      }
 )

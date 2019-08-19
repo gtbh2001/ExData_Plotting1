@@ -118,5 +118,5 @@ with( HouseHoldPowerConsumption,
       }
 )   
 
-dev.copy(png, filename="./figure/plot4.png")
+dev.copy(png, filename="plot4.png")
 dev.off()

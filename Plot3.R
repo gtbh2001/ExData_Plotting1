@@ -64,7 +64,7 @@ with(HouseHoldPowerConsumption,
        legend("topright", col=c("black", "red", "blue"), 
               legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3") , pch = c("_","_", "_"),lwd = 4)
        
-       dev.copy(png, filename="./figure/plot3.png")
+       dev.copy(png, filename="plot3.png")
        dev.off()
      }
 )
